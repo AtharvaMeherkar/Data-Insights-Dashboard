@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState, useEffect, useCallback, useRef } from "react"; // Added useRef
 import "./App.css"; // For global styles and font import
 import { Bar, Pie } from "react-chartjs-2"; // Import Pie chart as well
@@ -676,5 +675,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

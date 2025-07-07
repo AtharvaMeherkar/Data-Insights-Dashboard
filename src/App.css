@@ -1,6 +1,4 @@
-/* src/App.css */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
-
 body {
   font-family: "Inter", sans-serif;
   box-sizing: border-box;
@@ -9,7 +7,6 @@ body {
   overflow-x: hidden; /* Prevent horizontal scroll on small screens due to blob */
   scroll-behavior: smooth;
 }
-
 #root {
   /* CRITICAL FIX: Ensure #root fills the entire viewport */
   min-height: 100vh;
